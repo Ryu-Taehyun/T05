@@ -1,0 +1,11 @@
+T01 PASS
+T02 PASS
+T03 PASS
+T04 PASS
+T05 PASS
+T06 PASS
+T07 PASS
+T08 PASS
+T09 PASS — A file imported in fresh UI VM, saved/reloaded, fixed T01-T08 rerun, common scenario moved/exported/imported
+T10 PASS — success, cancel, bad JSON/schema, >2MB, exact 2MB, read failure, empty selection, storage guards, stale read; preservation asserted
+Environment: v24.19.0 / win32; UI handlers executed in isolated Node VM with DOM/file/storage/confirm stubs. No browser click or layout claim.
